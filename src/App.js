@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import DataFetch3 from './dataFetching/DataFetch3';
+// import DataFetching from './dataFetching/DataFetching';
+// import DataFetching1 from './dataFetching/DataFetching1';
+// import Counterstwo from './Counters/Counterstwo';
+// import CountersThree from './Counters/CountersThree';
+ 
+// import Counter from './Counters/Counter';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <DataFetch3/>
     </div>
   );
 }
